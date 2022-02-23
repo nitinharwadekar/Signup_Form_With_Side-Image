@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+
+/* Login form */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* align-items: center; */
+    background-color: rgb(66, 66, 253);
+
+}
+
+.form h2{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 40;
+    padding-left: 60px;
+    margin: 30px;
+    color: #fff;
+}
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    background-color: transparent;
+    font-size:x-small;
+    color: #fff;
+    font-style: normal;
+    /* text-decoration-line: underline; */
+    border-style: hidden;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid currentColor;
+    /* display: inline-block; */
+    /* line-height: 0.85; */
+  }
+
+.trouble{
+    color: #fff;
+    font-size:x-small;
+    margin-top: 0;
+}
+
+#submit{
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(248, 161, 0);
+    border: none;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #fff;
+    text-align: left;
+    font-size:x-small;
+}
+
+span{
+    position: relative;
+    left: 100px;
+    bottom: 55px;
+    color: #fff;
+}
+
+span.icon{
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+    color: #fff;
+}
+
+.form-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.icon{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Right side */
+
+.side{
+    display: flex;
+}
+
+.side img{
+    width: 500px;
+    height: 499px;
+}
+
+
+span.fa-solid{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.paport{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: small;
+}
+
+.icon a{
+    font-size: small;
+}
+
+i .icon .fa-solid{
+    position: relative;
+    color: black;
+    top: 10px;
+    left: 10px;
+    font-size: small;
+}
+
+.have{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.bottom{
+    position: absolute;
+    bottom: 185px;
+}
+
+.bottom-flex{
+    display: flex;
+}
+
+.mail{
+    display: flex;
+}
+
+.have i{
+    /* display: flex;
+
+     color: #fff;
+    font-size: x-small;
+    justify-content:start;
+    margin-top: 100px; */
+
+    /* position:relative;
+    left:10px;;
+    top:10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block; */
+ 
+    margin-top: 65px;
+    padding-left: 2px;
+
+    font-size: x-small;
+    color: #fff;
+    display: flex;
+
+
+    
+}
+
+.had i{
+    
+    margin-top: 450px;
+
+    font-size: x-small;
+    color: #fff;
+    display: flex;
+    margin-left: 2.5vh;
+    justify-content: space-around;
+    position:absolute;
+
+    width: 50px;
+    height: 50px;
+    top: 15px;
+  
+}
+
+.had p{
+    margin-top: 450px;
+
+    font-size: x-small;
+    color: #fff;
+    display: flex;
+    margin-left:10vh;
+    justify-content: space-around;
+    position:absolute;
+
+    width: 50px;
+    height: 50px;
+    top: 15px;
+}
+
+.port{
+    margin-top: 450px;
+
+    font-size: x-small;
+    color: #fff;
+    display: flex;
+    margin-left:50vh;
+    justify-content: space-around;
+    position:absolute;
+    text-overflow: ellipsis;
+    overflow: visible;
+    white-space: nowrap;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+}
+
+.right{
+    margin-top: 470px;
+
+    font-size: x-small;
+    color: #fff;
+    display: flex;
+    margin-left:46vh;
+    justify-content: space-around;
+    position:absolute;
+    text-overflow: ellipsis;
+    overflow: visible;
+    white-space: nowrap;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+}
+
+
+.support{
+
+    margin-top: 50px;
+    font-size: x-small;
+    color: #fff;
+    display: flex;
+    margin-left:0vh;
+    justify-content: space-around;
+    position:relative;
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+
+    
+    
+}
+
+.have p{
+    margin-right: 300px;
+    margin-bottom: 400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
